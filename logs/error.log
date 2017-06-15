@@ -1,0 +1,275 @@
+2017/06/14 16:55:01 [error] 2468#0: *1 open() "/home/webserver/jwtServer/html/favicon.ico" failed (2: No such file or directory), client: 192.168.121.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.121.160", referrer: "http://192.168.121.160/sign"
+2017/06/14 16:56:41 [notice] 2494#0: signal process started
+2017/06/14 16:58:33 [emerg] 2497#0: unexpected "j" in /home/webserver/jwtServer/conf/nginx.conf:64
+2017/06/14 16:59:24 [notice] 2499#0: signal process started
+2017/06/14 16:59:30 [error] 2500#0: *9 failed to load inlined Lua code: content_by_lua(nginx.conf:67):5: unexpected symbol near '#', client: 192.168.121.1, server: localhost, request: "GET /verify HTTP/1.1", host: "192.168.121.160"
+2017/06/14 16:59:38 [error] 2500#0: *10 failed to load inlined Lua code: content_by_lua(nginx.conf:67):5: unexpected symbol near '#', client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=123 HTTP/1.1", host: "192.168.121.160"
+2017/06/14 16:59:47 [error] 2500#0: *11 failed to load inlined Lua code: content_by_lua(nginx.conf:67):5: unexpected symbol near '#', client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmb28iOiJiYXIifQ.VxhQcGihWyHuJeHhpUiq2FU7aW2s_3ZJlY6h1kdlmJY HTTP/1.1", host: "192.168.121.160"
+2017/06/14 17:00:34 [notice] 2504#0: signal process started
+2017/06/14 17:00:37 [error] 2505#0: *12 failed to load inlined Lua code: content_by_lua(nginx.conf:67):5: unexpected symbol near '#', client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmb28iOiJiYXIifQ.VxhQcGihWyHuJeHhpUiq2FU7aW2s_3ZJlY6h1kdlmJY HTTP/1.1", host: "192.168.121.160"
+2017/06/14 17:00:50 [notice] 2506#0: signal process started
+2017/06/14 17:01:46 [notice] 2520#0: signal process started
+2017/06/14 17:03:48 [notice] 2523#0: signal process started
+2017/06/15 09:59:52 [error] 2974#0: *1 "/mnt/hgfs/manager/jwtServer/html/index.html" is not found (2: No such file or directory), client: 192.168.121.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.121.160"
+2017/06/15 09:59:53 [error] 2974#0: *1 open() "/mnt/hgfs/manager/jwtServer/html/favicon.ico" failed (2: No such file or directory), client: 192.168.121.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.121.160", referrer: "http://192.168.121.160/"
+2017/06/15 10:10:49 [notice] 3018#0: signal process started
+2017/06/15 10:11:11 [error] 3019#0: *6 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:20: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:11:22 [notice] 3020#0: signal process started
+2017/06/15 10:11:24 [error] 3021#0: *7 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:20: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:11:42 [notice] 3022#0: signal process started
+2017/06/15 10:12:33 [notice] 3024#0: signal process started
+2017/06/15 10:13:15 [notice] 3026#0: signal process started
+2017/06/15 10:17:38 [notice] 3028#0: signal process started
+2017/06/15 10:17:41 [error] 3029#0: *13 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:41 [error] 3029#0: *14 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:41 [error] 3029#0: *15 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:41 [error] 3029#0: *16 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:43 [error] 3029#0: *17 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:43 [error] 3029#0: *18 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:43 [error] 3029#0: *19 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:46 [error] 3029#0: *20 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:46 [error] 3029#0: *21 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:46 [error] 3029#0: *22 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:51 [error] 3029#0: *23 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:56 [error] 3029#0: *24 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:56 [error] 3029#0: *25 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:17:56 [error] 3029#0: *26 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:07 [notice] 3030#0: signal process started
+2017/06/15 10:18:08 [error] 3031#0: *27 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:08 [error] 3031#0: *28 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:08 [error] 3031#0: *29 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:15 [notice] 3032#0: signal process started
+2017/06/15 10:18:18 [error] 3033#0: *30 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:18 [error] 3033#0: *31 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:18 [error] 3033#0: *32 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:19 [error] 3033#0: *33 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:19 [error] 3033#0: *34 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:19 [error] 3033#0: *35 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:25: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:31 [notice] 3034#0: signal process started
+2017/06/15 10:18:33 [error] 3035#0: *36 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:23: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:33 [error] 3035#0: *37 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:23: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:18:33 [error] 3035#0: *38 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:23: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:19:12 [error] 3035#0: *39 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:23: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:19:12 [error] 3035#0: *41 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:23: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:20:12 [error] 3035#0: *42 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:23: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:20:15 [notice] 3038#0: signal process started
+2017/06/15 10:20:40 [notice] 3040#0: signal process started
+2017/06/15 10:20:53 [notice] 3042#0: signal process started
+2017/06/15 10:21:01 [notice] 3044#0: signal process started
+2017/06/15 10:26:08 [notice] 3069#0: signal process started
+2017/06/15 10:26:10 [error] 3070#0: *51 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:24: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:26:11 [error] 3070#0: *52 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/jwt.lua:696: bad argument #1 to 'pairs' (table expected, got number)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/opt/openresty/site/lualib/resty/jwt.lua:696: in function 'validate_claims'
+	/opt/openresty/site/lualib/resty/jwt.lua:728: in function 'verify'
+	/mnt/hgfs/manager/jwtServer/lua/init.lua:24: in function </mnt/hgfs/manager/jwtServer/lua/init.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /verify?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.R2XF5tV77LhnCzkAVjN1sCyMWnUQjKe1yiYNyCXQFdY HTTP/1.1", host: "192.168.121.160"
+2017/06/15 10:26:47 [notice] 3073#0: signal process started
+2017/06/15 10:31:18 [notice] 3077#0: signal process started
+2017/06/15 10:31:56 [notice] 3079#0: signal process started
+2017/06/15 10:37:12 [notice] 3104#0: signal process started
+2017/06/15 10:38:31 [notice] 3107#0: signal process started
+2017/06/15 10:40:14 [notice] 3111#0: signal process started
+2017/06/15 10:43:53 [notice] 3113#0: signal process started
+2017/06/15 10:45:58 [notice] 3115#0: signal process started
+2017/06/15 10:46:40 [notice] 3117#0: signal process started
+2017/06/15 11:05:54 [notice] 3421#0: signal process started
+2017/06/15 11:06:08 [notice] 3423#0: signal process started
+2017/06/15 11:16:13 [notice] 3450#0: signal process started
+2017/06/15 11:18:00 [notice] 3452#0: signal process started
+2017/06/15 11:19:50 [notice] 3455#0: signal process started
+2017/06/15 11:20:19 [notice] 3459#0: signal process started
+2017/06/15 14:59:27 [notice] 3906#0: signal process started
