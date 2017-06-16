@@ -273,3 +273,247 @@ coroutine 0:
 2017/06/15 11:19:50 [notice] 3455#0: signal process started
 2017/06/15 11:20:19 [notice] 3459#0: signal process started
 2017/06/15 14:59:27 [notice] 3906#0: signal process started
+2017/06/16 09:38:52 [emerg] 4711#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/06/16 09:38:52 [emerg] 4711#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/06/16 09:38:52 [emerg] 4711#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/06/16 09:38:52 [emerg] 4711#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/06/16 09:38:52 [emerg] 4711#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/06/16 09:38:52 [emerg] 4711#0: still could not bind()
+2017/06/16 09:38:57 [notice] 4712#0: signal process started
+2017/06/16 09:41:42 [notice] 4720#0: signal process started
+2017/06/16 09:41:43 [notice] 4722#0: signal process started
+2017/06/16 09:43:02 [notice] 4724#0: signal process started
+2017/06/16 10:06:04 [notice] 4792#0: signal process started
+2017/06/16 10:07:40 [notice] 4794#0: signal process started
+2017/06/16 10:09:02 [notice] 6245#0: signal process started
+2017/06/16 10:17:48 [notice] 6272#0: signal process started
+2017/06/16 10:23:37 [notice] 6276#0: signal process started
+2017/06/16 10:24:37 [notice] 6278#0: signal process started
+2017/06/16 10:24:41 [error] 6279#0: *43 open() "/mnt/hgfs/manager/jwtServer/html/favicon.ico" failed (2: No such file or directory), client: 192.168.121.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.121.160", referrer: "http://192.168.121.160/123.html"
+2017/06/16 10:37:44 [notice] 6305#0: signal process started
+2017/06/16 11:06:23 [notice] 6400#0: signal process started
+2017/06/16 11:06:24 [notice] 6402#0: signal process started
+2017/06/16 11:06:27 [error] 6403#0: *62 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/waf/log.lua:23: could not find 11000_whitelist
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/opt/openresty/site/lualib/resty/waf/log.lua:23: in function 'fatal_fail'
+	/opt/openresty/site/lualib/resty/waf.lua:463: in function 'exec'
+	/mnt/hgfs/manager/jwtServer/lua/verify.lua:40: in function </mnt/hgfs/manager/jwtServer/lua/verify.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0OTc1ODM0NDguMDYxLCJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.5_LnD6jseAmCkv9KGGfLYQjZ1anKA2O0LeYykSracd4 HTTP/1.1", host: "192.168.121.160"
+2017/06/16 11:06:33 [error] 6403#0: *63 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/waf/log.lua:23: could not find 11000_whitelist
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/opt/openresty/site/lualib/resty/waf/log.lua:23: in function 'fatal_fail'
+	/opt/openresty/site/lualib/resty/waf.lua:463: in function 'exec'
+	/mnt/hgfs/manager/jwtServer/lua/verify.lua:40: in function </mnt/hgfs/manager/jwtServer/lua/verify.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0OTc1ODM0NDguMDYxLCJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.5_LnD6jseAmCkv9KGGfLYQjZ1anKA2O0LeYykSracd4 HTTP/1.1", host: "192.168.121.160"
+2017/06/16 11:06:35 [error] 6403#0: *64 lua entry thread aborted: runtime error: /opt/openresty/site/lualib/resty/waf/log.lua:23: could not find 11000_whitelist
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	/opt/openresty/site/lualib/resty/waf/log.lua:23: in function 'fatal_fail'
+	/opt/openresty/site/lualib/resty/waf.lua:463: in function 'exec'
+	/mnt/hgfs/manager/jwtServer/lua/verify.lua:40: in function </mnt/hgfs/manager/jwtServer/lua/verify.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0OTc1ODM0NDguMDYxLCJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.5_LnD6jseAmCkv9KGGfLYQjZ1anKA2O0LeYykSracd4 HTTP/1.1", host: "192.168.121.160"
+2017/06/16 11:10:24 [error] 6441#0: [lua] waf.lua:586: init(): could not find 11000_whitelist
+2017/06/16 11:10:24 [error] 6441#0: [lua] waf.lua:586: init(): could not find 20000_http_violation
+2017/06/16 11:10:24 [error] 6441#0: [lua] waf.lua:586: init(): could not find 21000_http_anomaly
+2017/06/16 11:10:24 [error] 6441#0: [lua] waf.lua:586: init(): could not find 35000_user_agent
+2017/06/16 11:10:24 [error] 6441#0: [lua] waf.lua:586: init(): could not find 40000_generic_attack
+2017/06/16 11:10:24 [error] 6441#0: [lua] waf.lua:586: init(): could not find 41000_sqli
+2017/06/16 11:10:24 [error] 6441#0: [lua] waf.lua:586: init(): could not find 42000_xss
+2017/06/16 11:10:24 [error] 6441#0: [lua] waf.lua:586: init(): could not find 90000_custom
+2017/06/16 11:10:24 [error] 6441#0: [lua] waf.lua:586: init(): could not find 99000_scoring
+2017/06/16 11:10:24 [notice] 6441#0: signal process started
+2017/06/16 11:10:24 [error] 4535#0: [lua] waf.lua:586: init(): could not find 11000_whitelist
+2017/06/16 11:10:24 [error] 4535#0: [lua] waf.lua:586: init(): could not find 20000_http_violation
+2017/06/16 11:10:24 [error] 4535#0: [lua] waf.lua:586: init(): could not find 21000_http_anomaly
+2017/06/16 11:10:24 [error] 4535#0: [lua] waf.lua:586: init(): could not find 35000_user_agent
+2017/06/16 11:10:24 [error] 4535#0: [lua] waf.lua:586: init(): could not find 40000_generic_attack
+2017/06/16 11:10:24 [error] 4535#0: [lua] waf.lua:586: init(): could not find 41000_sqli
+2017/06/16 11:10:24 [error] 4535#0: [lua] waf.lua:586: init(): could not find 42000_xss
+2017/06/16 11:10:24 [error] 4535#0: [lua] waf.lua:586: init(): could not find 90000_custom
+2017/06/16 11:10:24 [error] 4535#0: [lua] waf.lua:586: init(): could not find 99000_scoring
+2017/06/16 11:55:21 [emerg] 6535#0: "init_by_lua_file" directive is not allowed here in /mnt/hgfs/manager/jwtServer/conf/nginx.conf:63
+2017/06/16 11:55:58 [emerg] 6559#0: "init_by_lua_file" directive is not allowed here in /mnt/hgfs/manager/jwtServer/conf/nginx.conf:63
+2017/06/16 11:56:17 [notice] 6560#0: signal process started
+2017/06/16 11:57:01 [error] 6561#0: *66 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/verify.lua:9: module 'resty.jwt' not found:
+	no field package.preload['resty.jwt']
+	no file '/mnt/hgfs/manager/jwtServer/lua/waf/resty/jwt.lua'
+	no file '/opt/openresty/site/lualib/resty/jwt.so'
+	no file '/opt/openresty/lualib/resty/jwt.so'
+	no file './resty/jwt.so'
+	no file '/usr/local/lib/lua/5.1/resty/jwt.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/resty/jwt.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/opt/openresty/site/lualib/resty.so'
+	no file '/opt/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/verify.lua:9: in function </mnt/hgfs/manager/jwtServer/lua/verify.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0OTc1ODM0NDguMDYxLCJuYW1lIjoibWluZDAyOSIsImZvbyI6ImJhciIsImlkIjoxfQ.5_LnD6jseAmCkv9KGGfLYQjZ1anKA2O0LeYykSracd4 HTTP/1.1", host: "192.168.121.160"
+2017/06/16 11:57:03 [error] 6561#0: *67 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/sign.lua:14: module 'resty.jwt' not found:
+	no field package.preload['resty.jwt']
+	no file '/mnt/hgfs/manager/jwtServer/lua/waf/resty/jwt.lua'
+	no file '/opt/openresty/site/lualib/resty/jwt.so'
+	no file '/opt/openresty/lualib/resty/jwt.so'
+	no file './resty/jwt.so'
+	no file '/usr/local/lib/lua/5.1/resty/jwt.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/resty/jwt.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/opt/openresty/site/lualib/resty.so'
+	no file '/opt/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/sign.lua:14: in function </mnt/hgfs/manager/jwtServer/lua/sign.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /sign HTTP/1.1", host: "192.168.121.160"
+2017/06/16 11:58:29 [notice] 6562#0: signal process started
+2017/06/16 12:01:02 [notice] 6577#0: signal process started
+2017/06/16 12:01:34 [notice] 6579#0: signal process started
+2017/06/16 14:06:17 [notice] 6833#0: signal process started
+2017/06/16 14:06:30 [error] 6834#0: *87 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/access.lua:10: module '/mnt/hgfs/manager/jwtServer/lua/waf/waf.lua' not found:
+	no field package.preload['/mnt/hgfs/manager/jwtServer/lua/waf/waf.lua']
+	no file '/mnt/hgfs/manager/jwtServer/lua/waf//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file './/mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta2//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/usr/local/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/usr/local/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file './/mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/usr/local/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file './/mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/usr/local/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?id=../etc/passwd HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:06:34 [error] 6834#0: *89 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/access.lua:10: module '/mnt/hgfs/manager/jwtServer/lua/waf/waf.lua' not found:
+	no field package.preload['/mnt/hgfs/manager/jwtServer/lua/waf/waf.lua']
+	no file '/mnt/hgfs/manager/jwtServer/lua/waf//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file './/mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta2//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/usr/local/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/usr/local/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file './/mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/usr/local/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file './/mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/usr/local/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:08:16 [notice] 6835#0: signal process started
+2017/06/16 14:08:19 [error] 6836#0: *91 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/access.lua:10: module '/mnt/hgfs/manager/jwtServer/lua/waf/waf.lua' not found:
+	no field package.preload['/mnt/hgfs/manager/jwtServer/lua/waf/waf.lua']
+	no file '/mnt/hgfs/manager/jwtServer/lua/waf//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file './/mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta2//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/usr/local/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/usr/local/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua/init.lua'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file './/mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/usr/local/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf/lua.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/opt/openresty/site/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/opt/openresty/lualib//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file './/mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/usr/local/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1//mnt/hgfs/manager/jwtServer/lua/waf/waf.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:09:58 [notice] 6860#0: signal process started
+2017/06/16 14:10:41 [notice] 6864#0: signal process started
+2017/06/16 14:10:45 [error] 6865#0: *101 lua entry thread aborted: runtime error: attempt to yield across C-call boundary
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?id=../etc/passwd HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:10:45 [error] 6865#0: *103 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/access.lua:10: loop or previous error loading module 'lua.waf.waf'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?id=../etc/passwd HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:10:47 [error] 6865#0: *104 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/access.lua:10: loop or previous error loading module 'lua.waf.waf'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?id=../etc/passwd HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:10:52 [notice] 6866#0: signal process started
+2017/06/16 14:10:55 [error] 6865#0: *105 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/access.lua:10: loop or previous error loading module 'lua.waf.waf'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?id=../etc/passwd HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:10:56 [error] 6867#0: *106 lua entry thread aborted: runtime error: attempt to yield across C-call boundary
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?id=../etc/passwd HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:10:56 [error] 6867#0: *107 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/access.lua:10: loop or previous error loading module 'lua.waf.waf'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?id=../etc/passwd HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:10:59 [notice] 6868#0: signal process started
+2017/06/16 14:11:05 [error] 6869#0: *108 lua entry thread aborted: runtime error: attempt to yield across C-call boundary
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?id=../etc/passwd HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:11:05 [error] 6869#0: *109 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/access.lua:10: loop or previous error loading module 'lua.waf.waf'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?id=../etc/passwd HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:11:06 [error] 6869#0: *110 lua entry thread aborted: runtime error: /mnt/hgfs/manager/jwtServer/lua/access.lua:10: loop or previous error loading module 'lua.waf.waf'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/mnt/hgfs/manager/jwtServer/lua/access.lua:10: in function </mnt/hgfs/manager/jwtServer/lua/access.lua:1>, client: 192.168.121.1, server: localhost, request: "GET /home/index?id=../etc/passwd HTTP/1.1", host: "192.168.121.160"
+2017/06/16 14:13:42 [notice] 6870#0: signal process started
+2017/06/16 14:18:34 [notice] 6872#0: signal process started
